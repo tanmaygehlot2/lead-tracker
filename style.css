@@ -1,0 +1,91 @@
+
+body{
+    background-image: url(/201.png);
+    max-width: 500px;
+}
+#input-el
+{
+    width: 26rem;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border : 3px solid  rgb(47, 13, 197);
+    border-radius: 5px;
+    
+}
+#input-el:hover{
+    background-color: rgb(204, 204, 204);
+    
+}
+.button
+{
+    display: flex;
+    margin: 5px 5px;
+    
+    
+}
+h1{
+    text-align: center;
+    color: darkred;
+    font-family: cursive;
+}
+#input-btn:hover{
+    opacity: .8;
+}
+#save-tab:hover{
+    opacity: .8;
+}
+#input-btn
+{
+ background-color: rgb(46, 45, 5);
+ color: rgb(255, 255, 255);
+ margin: 5px;
+ padding: 10px 10px;
+ border: none;
+ font-weight: bold;
+ font-size: large;
+ font-family: cursive;
+ border-radius: 5px; 
+
+}
+#save-tab{
+background-color: rgb(12, 18, 107);
+ color: rgb(255, 255, 255);
+ margin: 5px;
+ padding: 10px 10px;
+ border: none;
+ font-weight: bold;
+ font-size: large;
+ font-family: cursive;
+ border-radius: 5px; 
+}
+#delete-btn{
+    
+    margin: 5px;
+    background-color: transparent;
+    border:0;
+}
+ul{
+    list-style: none;
+    padding-left: 17px;
+    margin-top: 30px;
+    justify-content: center;
+}
+li{
+    margin-top: 10px;
+}
+a{
+    font-size: 20px;
+
+    max-width: 80px;
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+}
+.list-items{
+    text-align: justify;
+    overflow-wrap: break-word;
+    
+}
+a:hover{
+    color: maroon;
+}
